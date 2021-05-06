@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #469fdf;
+  color: #ca5151;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #3e9bdd;
+  background: #ca5151;
   color: #fff;
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #ca5151;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #2487ce;
+  color: #ca5151;
 }
 
 .nav-menu .drop-down ul {
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #2487ce;
+  color: #ca5151;
 }
 
 .nav-menu .drop-down > a:after {
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #2079b8;
+  background: #ca5151;
   color: #fff;
 }
 
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #2487ce;
+  color: #ca5151;
   text-decoration: none;
 }
 
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: relative;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #124265;
+  color: #4f0011;
   font-family: "Poppins", sans-serif;
 }
 
@@ -448,15 +448,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #940e22;
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  background: #ca5151;
 }
 
 #hero .icon-boxes {
-  margin-top: 100px;
+  margin-top: 25px;
 }
 
 #hero .icon-box {
@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box .title a {
-  color: #124265;
+  color: #4f0011;
   transition: 0.3s;
 }
 
@@ -494,15 +494,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #940e22;
 }
 
 #hero .icon-box:hover {
   transform: scale(1.08);
+  cursor: pointer;
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: #b20c25;
 }
 
 @media (min-width: 1024px) {
@@ -540,7 +541,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8fbfe;
+  background-color: #ffeff3;
 }
 
 .section-title {
@@ -616,7 +617,7 @@ section {
 }
 
 .about .content .btn-learn-more:hover {
-  background: #2487ce;
+  background: #ca5151;
   color: #fff;
   text-decoration: none;
 }
@@ -625,7 +626,11 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 60px 0;
+  padding: 15px 0;
+}
+
+.counts h3 {
+  padding-bottom: 20px;
 }
 
 .counts .count-box {
@@ -638,7 +643,7 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 700;
-  color: #124265;
+  color: #4f0011;
   margin-left: 80px;
   margin: auto;
 }
@@ -648,7 +653,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #1e6ca6;
+  color: #444444;
 }
 
 /*--------------------------------------------------------------
@@ -738,7 +743,7 @@ section {
 }
 
 .about-video .play-btn:hover::after {
-  border-left: 15px solid #2487ce;
+  border-left: 15px solid #ca5151;
   transform: scale(20);
 }
 
@@ -960,6 +965,7 @@ section {
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
 }
 
 .services .iconbox-blue i {
@@ -1069,7 +1075,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #2487ce;
+  color: #ca5151;
 }
 
 /*--------------------------------------------------------------
@@ -1264,7 +1270,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #2487ce;
+  color: #ca5151;
 }
 
 .team .member .social i {
@@ -1381,7 +1387,7 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #2487ce;
+  background: #ca5151;
   color: #fff;
 }
 
@@ -1405,7 +1411,7 @@ section {
 
 .pricing .featured .btn-buy:hover {
   background: #fff;
-  color: #2487ce;
+  color: #ca5151;
 }
 
 /*--------------------------------------------------------------
@@ -1471,7 +1477,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #ca5151;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1498,7 +1504,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #ca5151;
   float: left;
   width: 44px;
   height: 44px;
@@ -1530,7 +1536,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #ca5151;
   color: #fff;
 }
 
@@ -1601,7 +1607,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #2487ce;
+  border-color: #ca5151;
 }
 
 .contact .php-email-form input {
@@ -1613,7 +1619,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #2487ce;
+  background: #ca5151;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1838,7 +1844,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #2487ce;
+  color: #ca5151;
   font-size: 18px;
   line-height: 1;
 }
@@ -1862,7 +1868,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #2487ce;
+  color: #ca5151;
 }
 
 #footer .footer-newsletter {
@@ -1902,7 +1908,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #2487ce;
+  background: #ca5151;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1922,7 +1928,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #ca5151;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1935,7 +1941,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
+  background: #ca5151;
   color: #fff;
   text-decoration: none;
 }
